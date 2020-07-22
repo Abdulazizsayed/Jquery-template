@@ -1,0 +1,512 @@
+/* start our framework */
+
+:root {
+    --main-color: #F7600E;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.overlay{
+    background: rgba(49, 55, 61, .9);
+    width: 100%;
+    height: 100%;
+}
+
+.desc {
+    font-size: 15px;
+    font-weight: lighter;
+    color: #888;
+    line-height: 1.9;
+}
+
+.table {
+    height: 100%;
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.main-color{
+    color: #f7600e;
+}
+
+.btn {
+    background: none;
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    background: #FFF;
+    color: var(--main-color);
+}
+
+.input-field {
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+.main-background{
+    background-color: #F7600E;
+}
+
+.hidden {
+    display: none;
+}
+
+.our-work {
+    padding: 80px 0;
+}
+
+.intro {
+    width: 600px;
+    margin: 0 auto 100px;
+}
+
+.intro .title {
+    color: #333;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.intro .title span{
+    color: var(--main-color);
+}
+
+.icons i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #9DA1A5;
+    color: #FFF;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* end our framework */
+
+/* start header */
+
+.header {
+    background: url('../images/header.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+}
+
+.header .navbar {
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header .navbar span {
+    font-size: 30px;
+}
+
+.header .navbar .links {
+    float: right;
+    font-size: 20px;
+}
+
+.header .navbar .links i {
+    margin-left: 5px;
+}
+
+.header .intro h1 {
+    margin: 0;
+    font-weight: 800px;
+    font-size: 50px;
+}
+
+.header .intro p {
+    margin: 10px 0 40px;
+    line-height: 1.9;
+    font-size: 20px;
+    color: #E2E2E2;
+}
+
+.header .buttons button {
+    background: transparent;
+    padding: 10px 0;
+    width: 180px;
+    font-size: 14px;
+    border: 1px solid #909090;
+    margin: 0 8px;
+    border-radius: 10px;
+    color: #FFF;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.header .buttons button:hover {
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.header .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.header .arrow i {
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+
+/* end header */
+
+/* start features */
+
+.features {
+    padding: 70px 0;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+.features .feature {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+.features .feature i {
+    color: var(--main-color);
+    border: 1px solid #CCC;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.features .feature i:hover {
+    background: var(--main-color);
+    color: #FFF;
+    border: 1px solid var(--main-color);
+}
+
+.features .feature .title {
+    font-weight: normal;
+    color: #505050;
+    padding: 10px;
+}
+
+/* end features */
+
+/* start subscribe */
+
+.subscribe {
+    background-image: url('../images/subscribe.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.subscribe form {
+    width: 100%;
+    margin: auto;
+    padding: 110px 0;
+}
+
+.subscribe form button {
+    background: var(--main-color);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* end subscribe */
+
+/* start our work */
+
+.our-work .websites {
+    overflow: hidden;
+}
+
+.our-work .websites .website {
+    height: 350px;
+    width: 32%;
+    margin-bottom: 20px;
+    float: left;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-work .websites .website:nth-of-type(2),
+.our-work .websites .website:nth-of-type(5) {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.our-work .websites .website img {
+    width: 100%;
+    height: 100%;
+}
+
+.our-work .websites .website .over-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(247, 96, 14, .9);
+    color: #FFF;
+    padding: 40px 30px;
+    display: none;
+} 
+
+.our-work .websites .website .over-image .title {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.our-work .websites .website .over-image .web-desc {
+    color: #FFF;
+    font-size: 13px;
+}
+
+.our-work button.show {
+    color: #333;
+    border-color:#333;
+    margin-top: 40px;
+}
+
+.our-work button.show:hover {
+    background: var(--main-color);
+    border-color: var(--main-color);
+    color: #FFF;
+}
+
+/* end our work */
+
+/* start testimonilas */
+
+.testimonials {
+    background: url(../images/testimonials.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.testimonials .client {
+    padding: 50px 0;
+    color: #FFF;
+    font-size: 20px
+}
+
+.testimonials .client img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.testimonials .client p {
+    line-height: 2;
+    font-style: italic;
+}
+
+.testimonials i.fa-chevron-right, 
+.testimonials i.fa-chevron-left{
+    position: absolute;
+    top: 50%;
+    color: #999;
+    cursor: pointer;
+}
+
+.testimonials i.fa-chevron-right {
+    right: 0;
+}
+
+.testimonials i.fa-chevron-left {
+    left: 0;
+}
+
+/* end testimonilas */
+
+/* start our-team */
+
+.our-team {
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.our-team .person {
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+
+.our-team .person img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    -webkit-filter: grayscale(100);
+    -moz-filter: grayscale(100);
+    -o-filter: grayscale(100);
+    filter: grayscale(100);
+}
+
+.our-team .person .name {
+    font-weight: 400;
+    color: #9DA1A5;
+}
+
+.our-team .person:hover img{
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+    transform: translateY(-10px);
+    border-bottom: 3px solid var(--main-color);
+}
+
+.our-team .person:hover .name {
+    color: #555555;
+}
+
+.our-team .person:hover .desc {
+    color: #5A656B;
+}
+
+.our-team .person:hover .icons .fa-facebook,
+.contact .icons .fa-facebook {
+    background: #3B5998;
+}
+
+.our-team .person:hover .icons .fa-twitter,
+.contact .icons .fa-twitter {
+    background: #55ACEE;
+}
+
+.our-team .person:hover .icons .fa-google-plus, 
+.contact .icons .fa-google-plus {
+    background: #DC4E41;
+}
+/* end our-team */
+
+/* start contact */
+
+.contact {
+    background: url('../images/street.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contact .container {
+    padding: 50px 0;
+}
+
+.contact .intro .title {
+    color: #FFF;
+}
+
+.contact .intro .desc {
+    color: #FFF;
+}
+
+.contact form {
+    padding: 0 150px;
+    overflow: hidden;
+}
+
+.contact form input {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.contact form textarea {
+    width: 95%;
+    height: 200px;
+}
+
+.contact button {
+    margin: 20px;
+    padding: 15px 50px;
+    background: var(--main-color);
+    border: none;
+    float: left;
+}
+
+.contact .icons {
+    float: right;
+    margin: 20px 20px;
+}
+
+/* end contact */
+
+/* start footer */
+
+.footer {
+    background: #3B434C;
+    height: 70px;
+    line-height: 70px;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.footer .left {
+    float: left;
+}
+
+.footer .right {
+    float: right;
+}
+
+/* end footer */
